@@ -1,0 +1,261 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.new_products {
+    display: flex;
+    gap: 220px;
+    margin: 50px auto;
+    width: 80%;
+}
+
+.block2{
+    display: flex;
+    gap: 100px;
+    
+}
+
+.in_block2 {
+    width: 300px;
+    height: 300px;
+    /* background-color: red; */
+    position: relative;
+}
+
+
+.in_block2 .content{
+    position: absolute;
+    bottom: -70px;
+}
+
+
+.in_bigblock1{
+    width: 475px;
+    height: 475px;
+    /* background-color: red; */
+    position: relative;
+}
+
+.in_bigblock1 .content1 {
+    position: absolute;
+    bottom: -110px;
+}
+
+
+
+
+.bigblock2 {
+    width: 475px;
+    height: 475px;
+    
+    position: relative;
+}
+
+.bigblock2 .content3 {
+    position: absolute;
+    bottom: -110px;
+}
+
+
+
+
+.new_products2 {
+    display: flex;
+    gap: 220px;
+    margin: 50px auto;
+    width: 80%;
+}
+
+.block22 {
+    display: flex;
+    gap: 100px;
+    
+}
+
+.in_block22 {
+    /* background-color: red; */
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 100px;
+}
+
+.content2 {
+    position: absolute;
+    bottom: -70px;
+}
+
+.asd{
+    padding: 20px;
+    width: 300px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 20px;
+}
+
+.splide {
+    width:55%;
+    margin: 200px auto;
+    top: 100px;
+    
+}
+
+footer {
+    background-color: rgb(88, 170, 108);
+    height: 280px;
+    display: flex;
+    
+
+}
+
+footer .img {
+    width: 80%;
+    
+}
+
+footer .content .text {
+    width: 80%;
+    
+
+}
+
+
+
+@media (max-width: 1600px) {
+    .new_products,
+    .new_products2 {
+        flex-direction: column;
+        gap: 90px;
+        width: 60%;
+    }
+
+    .block2, .block22 {
+        justify-content: center;
+    }
+
+    
+}
+
+@media (max-width: 1280px) {
+    header {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .intro .content {
+        left: 38%;
+    }
+
+    .sales-products,
+    .vesna-products {
+        flex-wrap: wrap;
+    }
+}
+
+
+/* Адаптация для экранов до 992px (ноутбуки и планшеты) */
+@media (max-width: 1135px) {
+    
+    header nav a {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+    
+    .new_products,
+    .new_products2 {
+        flex-direction: column;
+        gap: 50px;
+        width: 90%;
+    }
+
+    .block2, .block22 {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .in_block2, .in_block22,
+    .in_bigblock1, .bigblock2 {
+        width: 100%;
+        max-width: 400px;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+    .splide {
+        width: 90%;
+    }
+}
+
+
+
+
+
+/* Адаптация для планшетов до 768px */
+@media (max-width: 768px) {
+    header nav a {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    .new_products,
+    .new_products2 {
+        width: 95%;
+        gap: 40px;
+    }
+
+    .in_block2, .in_block22,
+    .in_bigblock1, .bigblock2 {
+        height: 350px;
+    }
+
+    .splide__slide img {
+        width: 250px;
+    }
+}
+
+/* Адаптация для телефонов до 480px */
+@media (max-width: 480px) {
+    .new_products,
+    .new_products2 {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .in_block2, .in_block22,
+    .in_bigblock1, .bigblock2 {
+        width: 90%;
+        height: 300px;
+    }
+
+    .content, .content1, .content2, .content3 {
+        bottom: -50px;
+    }
+
+    .asd {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .splide__slide img {
+        width: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
